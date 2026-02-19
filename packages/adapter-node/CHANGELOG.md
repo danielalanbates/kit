@@ -1,5 +1,17 @@
 # @sveltejs/adapter-node
 
+## 6.0.0-next.0
+### Major Changes
+
+
+- chore: migrate from rollup to rolldown ([#15297](https://github.com/sveltejs/kit/pull/15297))
+
+
+### Patch Changes
+
+- Updated dependencies [[`cb9d416`](https://github.com/sveltejs/kit/commit/cb9d416d05266b6237f2856fb94df5b8a9b04279), [`caf3a18`](https://github.com/sveltejs/kit/commit/caf3a18de6581ab7d454d6fa8ad37ebdbdef95e6), [`4777827`](https://github.com/sveltejs/kit/commit/4777827246727045cf0209399751377564e7951d), [`800d904`](https://github.com/sveltejs/kit/commit/800d904f1ba3cc0637165ee9899e6bbab842d506), [`6df9d33`](https://github.com/sveltejs/kit/commit/6df9d332fd9647cfba92a677ad5e1bd87438937f), [`d06affc`](https://github.com/sveltejs/kit/commit/d06affc9246c676fc32b644efc0bbf53b42bc67d), [`caf3a18`](https://github.com/sveltejs/kit/commit/caf3a18de6581ab7d454d6fa8ad37ebdbdef95e6), [`71e8205`](https://github.com/sveltejs/kit/commit/71e82053ace295607290b5c719f57b6f17ef9bd8)]:
+  - @sveltejs/kit@3.0.0-next.0
+
 ## 5.5.3
 ### Patch Changes
 

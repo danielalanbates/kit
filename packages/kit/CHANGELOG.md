@@ -1,5 +1,38 @@
 # @sveltejs/kit
 
+## 3.0.0-next.0
+### Major Changes
+
+
+- breaking: upgrade to cookie v1. Cookie names must now contain only ASCII characters ([#13386](https://github.com/sveltejs/kit/pull/13386))
+
+
+- breaking: require Node 22 or newer ([#12548](https://github.com/sveltejs/kit/pull/12548))
+
+
+- breaking: remove the `preloadStrategy` option. `modulepreload` will always be used ([#15256](https://github.com/sveltejs/kit/pull/15256))
+
+
+- chore: change `error`, `isHttpError`, `redirect`, and `isRedirect` to refer to public type instead of internal class ([#13036](https://github.com/sveltejs/kit/pull/13036))
+
+
+- breaking: `svelte.config.js` will now be included in type checking ([#12090](https://github.com/sveltejs/kit/pull/12090))
+
+
+### Minor Changes
+
+
+- feat: support Vite 8 ([#15024](https://github.com/sveltejs/kit/pull/15024))
+
+
+### Patch Changes
+
+
+- fix: remove event listeners on form attachment cleanup ([#15286](https://github.com/sveltejs/kit/pull/15286))
+
+
+- chore: remove dependency on kleur ([#12548](https://github.com/sveltejs/kit/pull/12548))
+
 ## 2.52.2
 ### Patch Changes
 
