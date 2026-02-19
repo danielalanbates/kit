@@ -1,5 +1,17 @@
 # @sveltejs/kit
 
+## 2.53.0
+### Minor Changes
+
+
+- feat: support Vite 8 ([#15024](https://github.com/sveltejs/kit/pull/15024))
+
+
+### Patch Changes
+
+
+- fix: remove event listeners on form attachment cleanup ([#15286](https://github.com/sveltejs/kit/pull/15286))
+
 ## 2.52.2
 ### Patch Changes
 
