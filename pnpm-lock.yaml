@@ -13,7 +13,7 @@ catalogs:
       specifier: ^5.1.0
       version: 5.1.0
     '@netlify/dev':
-      specifier: ^4.8.8
+      specifier: ^4.11.2
       version: 4.11.2
     '@netlify/edge-functions':
       specifier: ^3.0.0
@@ -537,7 +537,7 @@ importers:
         version: 1.0.0
       '@sveltejs/acorn-typescript':
         specifier: ^1.0.5
-        version: 1.0.5(acorn@8.15.0)
+        version: 1.0.9(acorn@8.15.0)
       acorn:
         specifier: ^8.14.1
         version: 8.15.0
@@ -3059,11 +3059,6 @@ packages:
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
-
-  '@sveltejs/acorn-typescript@1.0.5':
-    resolution: {integrity: sha512-IwQk4yfwLdibDlrXVE04jTZYlLnwsTT2PIOQQGNLWfjavGifnk1JD1LcZjZaBTRcxZu2FfPfNLOE04DSu9lqtQ==}
-    peerDependencies:
-      acorn: ^8.9.0
 
   '@sveltejs/acorn-typescript@1.0.9':
     resolution: {integrity: sha512-lVJX6qEgs/4DOcRTpo56tmKzVPtoWAaVbL4hfO7t7NVwl9AAXzQR6cihesW1BmNMPl+bK6dreu2sOKBP2Q9CIA==}
@@ -7535,10 +7530,6 @@ snapshots:
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
 
-  '@sveltejs/acorn-typescript@1.0.5(acorn@8.15.0)':
-    dependencies:
-      acorn: 8.15.0
-
   '@sveltejs/acorn-typescript@1.0.9(acorn@8.15.0)':
     dependencies:
       acorn: 8.15.0
@@ -10113,7 +10104,7 @@ snapshots:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5
-      '@sveltejs/acorn-typescript': 1.0.5(acorn@8.15.0)
+      '@sveltejs/acorn-typescript': 1.0.9(acorn@8.15.0)
       '@types/estree': 1.0.8
       '@types/trusted-types': 2.0.7
       acorn: 8.15.0
